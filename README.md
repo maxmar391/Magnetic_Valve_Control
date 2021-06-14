@@ -17,7 +17,7 @@ This project is about controlling a magnetic valve to automate the watering of m
 
 # Circuit setup
 
-The following picture shows the schematic of the circuit. The resistor R1 limits the current from the Arduino to the transistor and protects both components. The diode D1 protects the solenoid (the magnetic valve) from the peak of the induced inverse voltage when the solenoid switching off.
+The following picture shows the schematic of the circuit. The resistor R1 limits the current from the Arduino Nano to the transistor Q1 and protects both components. The diode D1 protects the solenoid L1 (the magnetic valve) from the peak of the induced inverse voltage when the solenoid switching off.
 
 <img src="circuit_schematic.png" width=70%>
 
