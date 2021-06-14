@@ -19,11 +19,12 @@ This project is about controlling a magnetic valve to automate the watering of m
 
 The following picture shows the schematic of the circuit. The resistor R1 limits the current from the Arduino to the transistor and protects both components. The diode D1 protects the solenoid (the magnetic valve) from the peak of the induced inverse voltage when the solenoid switching off.
 
-<img src="https://github.com/maxmar391/Magnetic_Valve_Control/circuit_schematic.png" width=50%>
-![Schematic of the circuit](circuit_schematic.png "Schematic of the circuit")
+<img src="https://github.com/maxmar391/Magnetic_Valve_Control/blob/main/circuit_illustration.png" width=50%>
+
+![Schematic of the circuit](circuit_schematic.png | width=50% "Schematic of the circuit")
 
 
 
 The following picture shows the illustration of the circuit. Please note that the 12 V power supply is not illustrated and should be connected to the red and black wires.
 
-![Illustration of the circuit](circuit_illustration.png "Illustration of the circuit")
+<img src="circuit_schematic.png" width=50%>
