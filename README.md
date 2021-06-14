@@ -23,6 +23,6 @@ The following picture shows the schematic of the circuit. The resistor R1 limits
 
 
 
-The following picture shows the illustration of the circuit. Please note that the 12 V power supply is not illustrated and should be connected to the red and black wires.
+The following picture shows the illustration of the circuit. Please note that the 12 V power supply is not illustrated and should be connected to the red and black wires. The solenoid can be connected either polarity.
 
 <img src="circuit_illustration.png" width=70%>
