@@ -1,6 +1,6 @@
 # Magnetic valve control
 
-This project is about controlling a magnetic valve to automate the watering of my garden. The magnetic valve is connected on both sides to some tubing of my Gardena Microdrip system. The valve should control part of the tube system and turn on the watering every evening. I have 3D printed the adapters for connecting the 4.6 mm Gardena Microdrip tube to the magnetic valve and added some gaskets to make it water tight. The magnetic valve is turned on and off by a MOSFET transistor acting as switch. The transistor is controlled again by an Arduino Nano. The trigger of the Arduino is scheduled to happen every evening. For keeping the right time even in case of power outage, the Arduino Nano is connected to a real time clock (RTC) module which saves the time.
+This project is about controlling a magnetic valve to automate the watering of my garden. The magnetic valve is connected on both sides to some tubing of my Gardena Microdrip system. The valve should control part of the tube system and turn on the watering every evening. I have 3D printed the adapters for connecting the 4.6 mm Gardena Microdrip tube to the magnetic valve and added some gaskets to make it water tight. The magnetic valve is turned on and off by a MOSFET transistor acting as switch. You need a MOSFET, I also tried a common bipolar transistor (BC537) first, but a bipolar transistor is not powerful enough and could not control the valve. The transistor is controlled again by an Arduino Nano. The trigger of the Arduino is scheduled to happen every evening. For keeping the right time even in case of power outage, the Arduino Nano is connected to a real time clock (RTC) module which saves the time. Everything is powered by an old DC power supply (12, 800 mA) that I had lying around from other electronics.
 
 
 
@@ -12,7 +12,7 @@ This project is about controlling a magnetic valve to automate the watering of m
 * 1 kOhm resistor
 * [1N4001 diode](https://www.onsemi.com/pdf/datasheet/1n4001-d.pdf) (or similar)
 * magnetic solenoid valve, 12 V
-* DC power supply, 12 V, 800 mA
+* DC power supply, 12 V, 800 mA (or similar, the current rating can potentially be different)
 
 
 # Circuit setup
