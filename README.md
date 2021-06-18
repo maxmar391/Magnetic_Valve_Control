@@ -11,7 +11,7 @@ This project is about controlling a magnetic valve to automate the watering of m
 * [IRF 520 MOSFET transistor](https://www.vishay.com/docs/91017/91017.pdf) (or similar)
 * 1 kOhm resistor
 * [1N4001 diode](https://www.onsemi.com/pdf/datasheet/1n4001-d.pdf) (or similar)
-* magnetic solenoid valve, 12 V
+* magnetic solenoid valve, 12 V DC 
 * DC power supply, 12 V DC, 800 mA (or similar, the current rating can potentially be different)
 
 
