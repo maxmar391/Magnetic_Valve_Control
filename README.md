@@ -12,7 +12,7 @@ This project is about controlling a magnetic valve to automate the watering of m
 * 1 kOhm resistor
 * [1N4001 diode](https://www.onsemi.com/pdf/datasheet/1n4001-d.pdf) (or similar)
 * magnetic solenoid valve, 12 V
-* DC power supply, 12 V, 800 mA (or similar, the current rating can potentially be different)
+* DC power supply, 12 V DC, 800 mA (or similar, the current rating can potentially be different)
 
 
 # Circuit setup
@@ -23,6 +23,6 @@ The following picture shows the schematic of the circuit. The resistor R1 limits
 
 
 
-The following picture shows the illustration of the circuit. Please note that the 12 V power supply is not illustrated and should be connected to the red and black wires. The solenoid can be connected either polarity.
+The following picture shows the illustration of the circuit. Please note that the 12 V power supply is not illustrated and should be connected to the red and black wires. The solenoid can be connected with either polarity.
 
 <img src="circuit_illustration.png" width=70%>
